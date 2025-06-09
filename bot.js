@@ -1,11 +1,11 @@
 const mineflayer = require('mineflayer');
 
 const bot = mineflayer.createBot({
-  host: 'SERVER_IP',
-  port: "SERVER_PORT",
-  username: 'Bot',
+  host: 'stonecraft538-ckQm.aternos.me',
+  port: "57343",
+  username: 'x0Bot',
   auth: "offline",
-  version: "1.21",
+  version: "1.21.80",
 });
 
 bot.once('spawn', () => {
